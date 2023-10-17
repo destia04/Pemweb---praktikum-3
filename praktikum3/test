@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bucket and Flower || Welcome</title>
+</head>
+<body>
+    <fieldset>
+        <legend> </legend>
+       <h1> Zee Bucket and Flower</h1>
+        <img src="https://www.twsflorist.co.id/wp-content/uploads/2019/05/buket-bunga-uang-2-1024x972.jpg" alt="bucket" width="200px">
+        <form action="chek out.html" method="post"> 
+            <p> Title Here: Flower Bouquet</p>
+            <type="text" id="Title Here" name="Title here" required />
+            <p> Description: Bouquet size :40x30 cm | Type of flower : Rose Flowers | color : With and red
+            <p> <for="Total amout">Total Amout : 100.000 rupiah</p>
+            <type="number" id="Total amout" name="Total amout" required />
+            <p> <for="Pay to">Pay To : 123-678-923-9</p>
+            <type="number" id="pay" name="pay to" required />
+    
+            <label for="payment">Payment Type:</label>
+            <select name="payment" id="payment">
+            <option value="debit cards">Debit Cards</option>
+            <option value="cash">Cash</option>
+            <option value="credit cards">Credit Cards</option>
+            <option value="checks">Checks</option>
+            <option value="visa debit">Visa Debit</option>
+    
+            </select>
+    
+            <br/>
+            <br />
+            <label for="Acount Holder">Acount Holder:</label>
+            <input type="text" name="Acount Holder" id="Account Holder">
+            <br />
+            <br />
+            <label for="Acount no">Acount No :</label>
+            <input type="number" id="Acount no" name="Acount no" required />
+            <br /> 
+            <br />
+            <input type="checkbox" name="send to mobile phone" value="send to mobile phone">Send to Mobile phone
+            <br />
+            <input type="checkbox" name="email me copy of transaction" id="email me copy of transaction" value="email me copy of transaction">Email me copy of transaction
+            <br />
+            <br />
+            <label for="Send to mobile phone">Send to Mobile phone:</label>
+            <input type="number" name="send to mobile phone" id="sent to mobile phone">
+            <br />
+            <label for="Send To Email"> Send To Email:</label>
+            <input type="text" name="Send To Email" id="Send To Email">
+            <br />
+            <br />
+            <input type="reset" value="reset">
+            <input type="submit" value="kirim">
+        </form>
+        
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
